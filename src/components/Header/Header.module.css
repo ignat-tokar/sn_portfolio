@@ -1,9 +1,18 @@
 .header {
     grid-area: h;
-    background-color: green;
+    background-color: burlywood;
+    padding: 20px;
 }
 
-.header img {
-    width: 20px;
+.item {
+    display: inline-block;
+    padding-right: 20px;
+}
+.item a {
+    color: white;
+    text-decoration: none;
 }
 
+.item a.activeLink {
+    color: gold;
+}
